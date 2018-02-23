@@ -9,7 +9,7 @@ import Footer from '../components/Footer';
 class App extends Component {
 
   render() {
-    console.log("###### this.props : ", this.props);
+    
     const { dispatch, visibleTodos, visibilityFilter } = this.props;
 
     return (
